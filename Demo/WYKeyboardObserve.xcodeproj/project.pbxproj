@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3C2C9E319AF29E300EAFD69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2C9E219AF29E300EAFD69 /* Foundation.framework */; };
+		D3C2C9E519AF29E300EAFD69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2C9E419AF29E300EAFD69 /* CoreGraphics.framework */; };
+		D3C2C9E719AF29E300EAFD69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2C9E619AF29E300EAFD69 /* UIKit.framework */; };
+		D3C2C9ED19AF29E300EAFD69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3C2C9EB19AF29E300EAFD69 /* InfoPlist.strings */; };
+		D3C2C9EF19AF29E300EAFD69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C2C9EE19AF29E300EAFD69 /* main.m */; };
+		D3C2C9F319AF29E300EAFD69 /* WYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C2C9F219AF29E300EAFD69 /* WYAppDelegate.m */; };
+		D3C2C9F619AF29E300EAFD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C2C9F419AF29E300EAFD69 /* Main.storyboard */; };
+		D3C2C9F919AF29E300EAFD69 /* WYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C2C9F819AF29E300EAFD69 /* WYViewController.m */; };
+		D3C2C9FB19AF29E300EAFD69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C2C9FA19AF29E300EAFD69 /* Images.xcassets */; };
+		D3C2CA0219AF29E300EAFD69 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2CA0119AF29E300EAFD69 /* XCTest.framework */; };
+		D3C2CA0319AF29E300EAFD69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2C9E219AF29E300EAFD69 /* Foundation.framework */; };
+		D3C2CA0419AF29E300EAFD69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2C9E619AF29E300EAFD69 /* UIKit.framework */; };
+		D3C2CA0C19AF29E300EAFD69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3C2CA0A19AF29E300EAFD69 /* InfoPlist.strings */; };
+		D3C2CA0E19AF29E300EAFD69 /* WYKeyboardObserveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C2CA0D19AF29E300EAFD69 /* WYKeyboardObserveTests.m */; };
+		D3C2CA1919AF2AA200EAFD69 /* UIViewController+KeyboardObserve.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C2CA1819AF2AA200EAFD69 /* UIViewController+KeyboardObserve.m */; };
+		D3C2CA1D19AF347700EAFD69 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2CA1C19AF347700EAFD69 /* Reveal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3C2CA0519AF29E300EAFD69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C2C9D719AF29E300EAFD69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C2C9DE19AF29E300EAFD69;
+			remoteInfo = WYKeyboardObserve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3C2C9DF19AF29E300EAFD69 /* WYKeyboardObserve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYKeyboardObserve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C2C9E219AF29E300EAFD69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3C2C9E419AF29E300EAFD69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3C2C9E619AF29E300EAFD69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3C2C9EA19AF29E300EAFD69 /* WYKeyboardObserve-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WYKeyboardObserve-Info.plist"; sourceTree = "<group>"; };
+		D3C2C9EC19AF29E300EAFD69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3C2C9EE19AF29E300EAFD69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3C2C9F019AF29E300EAFD69 /* WYKeyboardObserve-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYKeyboardObserve-Prefix.pch"; sourceTree = "<group>"; };
+		D3C2C9F119AF29E300EAFD69 /* WYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYAppDelegate.h; sourceTree = "<group>"; };
+		D3C2C9F219AF29E300EAFD69 /* WYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYAppDelegate.m; sourceTree = "<group>"; };
+		D3C2C9F519AF29E300EAFD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3C2C9F719AF29E300EAFD69 /* WYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYViewController.h; sourceTree = "<group>"; };
+		D3C2C9F819AF29E300EAFD69 /* WYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYViewController.m; sourceTree = "<group>"; };
+		D3C2C9FA19AF29E300EAFD69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3C2CA0019AF29E300EAFD69 /* WYKeyboardObserveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYKeyboardObserveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C2CA0119AF29E300EAFD69 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D3C2CA0919AF29E300EAFD69 /* WYKeyboardObserveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WYKeyboardObserveTests-Info.plist"; sourceTree = "<group>"; };
+		D3C2CA0B19AF29E300EAFD69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3C2CA0D19AF29E300EAFD69 /* WYKeyboardObserveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYKeyboardObserveTests.m; sourceTree = "<group>"; };
+		D3C2CA1719AF2AA200EAFD69 /* UIViewController+KeyboardObserve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeyboardObserve.h"; sourceTree = "<group>"; };
+		D3C2CA1819AF2AA200EAFD69 /* UIViewController+KeyboardObserve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeyboardObserve.m"; sourceTree = "<group>"; };
+		D3C2CA1C19AF347700EAFD69 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C2C9DC19AF29E300EAFD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C2C9E519AF29E300EAFD69 /* CoreGraphics.framework in Frameworks */,
+				D3C2C9E719AF29E300EAFD69 /* UIKit.framework in Frameworks */,
+				D3C2C9E319AF29E300EAFD69 /* Foundation.framework in Frameworks */,
+				D3C2CA1D19AF347700EAFD69 /* Reveal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C2C9FD19AF29E300EAFD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C2CA0219AF29E300EAFD69 /* XCTest.framework in Frameworks */,
+				D3C2CA0419AF29E300EAFD69 /* UIKit.framework in Frameworks */,
+				D3C2CA0319AF29E300EAFD69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3C2C9D619AF29E300EAFD69 = {
+			isa = PBXGroup;
+			children = (
+				D3C2CA1C19AF347700EAFD69 /* Reveal.framework */,
+				D3C2C9E819AF29E300EAFD69 /* WYKeyboardObserve */,
+				D3C2CA0719AF29E300EAFD69 /* WYKeyboardObserveTests */,
+				D3C2C9E119AF29E300EAFD69 /* Frameworks */,
+				D3C2C9E019AF29E300EAFD69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C2C9E019AF29E300EAFD69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C2C9DF19AF29E300EAFD69 /* WYKeyboardObserve.app */,
+				D3C2CA0019AF29E300EAFD69 /* WYKeyboardObserveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C2C9E119AF29E300EAFD69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3C2C9E219AF29E300EAFD69 /* Foundation.framework */,
+				D3C2C9E419AF29E300EAFD69 /* CoreGraphics.framework */,
+				D3C2C9E619AF29E300EAFD69 /* UIKit.framework */,
+				D3C2CA0119AF29E300EAFD69 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3C2C9E819AF29E300EAFD69 /* WYKeyboardObserve */ = {
+			isa = PBXGroup;
+			children = (
+				D3C2C9F119AF29E300EAFD69 /* WYAppDelegate.h */,
+				D3C2C9F219AF29E300EAFD69 /* WYAppDelegate.m */,
+				D3C2C9F419AF29E300EAFD69 /* Main.storyboard */,
+				D3C2C9F719AF29E300EAFD69 /* WYViewController.h */,
+				D3C2C9F819AF29E300EAFD69 /* WYViewController.m */,
+				D3C2CA1719AF2AA200EAFD69 /* UIViewController+KeyboardObserve.h */,
+				D3C2CA1819AF2AA200EAFD69 /* UIViewController+KeyboardObserve.m */,
+				D3C2C9FA19AF29E300EAFD69 /* Images.xcassets */,
+				D3C2C9E919AF29E300EAFD69 /* Supporting Files */,
+			);
+			path = WYKeyboardObserve;
+			sourceTree = "<group>";
+		};
+		D3C2C9E919AF29E300EAFD69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3C2C9EA19AF29E300EAFD69 /* WYKeyboardObserve-Info.plist */,
+				D3C2C9EB19AF29E300EAFD69 /* InfoPlist.strings */,
+				D3C2C9EE19AF29E300EAFD69 /* main.m */,
+				D3C2C9F019AF29E300EAFD69 /* WYKeyboardObserve-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3C2CA0719AF29E300EAFD69 /* WYKeyboardObserveTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C2CA0D19AF29E300EAFD69 /* WYKeyboardObserveTests.m */,
+				D3C2CA0819AF29E300EAFD69 /* Supporting Files */,
+			);
+			path = WYKeyboardObserveTests;
+			sourceTree = "<group>";
+		};
+		D3C2CA0819AF29E300EAFD69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3C2CA0919AF29E300EAFD69 /* WYKeyboardObserveTests-Info.plist */,
+				D3C2CA0A19AF29E300EAFD69 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C2C9DE19AF29E300EAFD69 /* WYKeyboardObserve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C2CA1119AF29E300EAFD69 /* Build configuration list for PBXNativeTarget "WYKeyboardObserve" */;
+			buildPhases = (
+				D3C2C9DB19AF29E300EAFD69 /* Sources */,
+				D3C2C9DC19AF29E300EAFD69 /* Frameworks */,
+				D3C2C9DD19AF29E300EAFD69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYKeyboardObserve;
+			productName = WYKeyboardObserve;
+			productReference = D3C2C9DF19AF29E300EAFD69 /* WYKeyboardObserve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3C2C9FF19AF29E300EAFD69 /* WYKeyboardObserveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C2CA1419AF29E300EAFD69 /* Build configuration list for PBXNativeTarget "WYKeyboardObserveTests" */;
+			buildPhases = (
+				D3C2C9FC19AF29E300EAFD69 /* Sources */,
+				D3C2C9FD19AF29E300EAFD69 /* Frameworks */,
+				D3C2C9FE19AF29E300EAFD69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C2CA0619AF29E300EAFD69 /* PBXTargetDependency */,
+			);
+			name = WYKeyboardObserveTests;
+			productName = WYKeyboardObserveTests;
+			productReference = D3C2CA0019AF29E300EAFD69 /* WYKeyboardObserveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C2C9D719AF29E300EAFD69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.wy;
+				TargetAttributes = {
+					D3C2C9FF19AF29E300EAFD69 = {
+						TestTargetID = D3C2C9DE19AF29E300EAFD69;
+					};
+				};
+			};
+			buildConfigurationList = D3C2C9DA19AF29E300EAFD69 /* Build configuration list for PBXProject "WYKeyboardObserve" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3C2C9D619AF29E300EAFD69;
+			productRefGroup = D3C2C9E019AF29E300EAFD69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C2C9DE19AF29E300EAFD69 /* WYKeyboardObserve */,
+				D3C2C9FF19AF29E300EAFD69 /* WYKeyboardObserveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C2C9DD19AF29E300EAFD69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C2C9FB19AF29E300EAFD69 /* Images.xcassets in Resources */,
+				D3C2C9ED19AF29E300EAFD69 /* InfoPlist.strings in Resources */,
+				D3C2C9F619AF29E300EAFD69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C2C9FE19AF29E300EAFD69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C2CA0C19AF29E300EAFD69 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C2C9DB19AF29E300EAFD69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C2CA1919AF2AA200EAFD69 /* UIViewController+KeyboardObserve.m in Sources */,
+				D3C2C9F319AF29E300EAFD69 /* WYAppDelegate.m in Sources */,
+				D3C2C9EF19AF29E300EAFD69 /* main.m in Sources */,
+				D3C2C9F919AF29E300EAFD69 /* WYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C2C9FC19AF29E300EAFD69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C2CA0E19AF29E300EAFD69 /* WYKeyboardObserveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3C2CA0619AF29E300EAFD69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C2C9DE19AF29E300EAFD69 /* WYKeyboardObserve */;
+			targetProxy = D3C2CA0519AF29E300EAFD69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3C2C9EB19AF29E300EAFD69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C2C9EC19AF29E300EAFD69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3C2C9F419AF29E300EAFD69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C2C9F519AF29E300EAFD69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3C2CA0A19AF29E300EAFD69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C2CA0B19AF29E300EAFD69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3C2CA0F19AF29E300EAFD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3C2CA1019AF29E300EAFD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C2CA1219AF29E300EAFD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WYKeyboardObserve/WYKeyboardObserve-Prefix.pch";
+				INFOPLIST_FILE = "WYKeyboardObserve/WYKeyboardObserve-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3C2CA1319AF29E300EAFD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WYKeyboardObserve/WYKeyboardObserve-Prefix.pch";
+				INFOPLIST_FILE = "WYKeyboardObserve/WYKeyboardObserve-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D3C2CA1519AF29E300EAFD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WYKeyboardObserve.app/WYKeyboardObserve";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/WYKeyboardObserveTests",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WYKeyboardObserve/WYKeyboardObserve-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WYKeyboardObserveTests/WYKeyboardObserveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D3C2CA1619AF29E300EAFD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WYKeyboardObserve.app/WYKeyboardObserve";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/WYKeyboardObserveTests",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WYKeyboardObserve/WYKeyboardObserve-Prefix.pch";
+				INFOPLIST_FILE = "WYKeyboardObserveTests/WYKeyboardObserveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C2C9DA19AF29E300EAFD69 /* Build configuration list for PBXProject "WYKeyboardObserve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C2CA0F19AF29E300EAFD69 /* Debug */,
+				D3C2CA1019AF29E300EAFD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C2CA1119AF29E300EAFD69 /* Build configuration list for PBXNativeTarget "WYKeyboardObserve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C2CA1219AF29E300EAFD69 /* Debug */,
+				D3C2CA1319AF29E300EAFD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C2CA1419AF29E300EAFD69 /* Build configuration list for PBXNativeTarget "WYKeyboardObserveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C2CA1519AF29E300EAFD69 /* Debug */,
+				D3C2CA1619AF29E300EAFD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3C2C9D719AF29E300EAFD69 /* Project object */;
+}

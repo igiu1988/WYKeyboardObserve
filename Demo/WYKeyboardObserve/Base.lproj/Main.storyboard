@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="WYViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ldB-zg-6Sf">
+                                <rect key="frame" x="6" y="311" width="180" height="183"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="input view" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cYg-rQ-pVl">
+                                        <rect key="frame" x="42" y="96" width="96" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="vXZ-lx-hvc" id="nEG-X7-GOY"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDC-oC-bZM">
+                                        <rect key="frame" x="58" y="133" width="64" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.066599059660000001" green="1" blue="0.079781787359999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="referView">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="targetMoveView" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uMb-3B-ejs">
+                                        <rect key="frame" x="29" y="20" width="123" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.35686274509999999" green="0.7725490196" blue="0.92941176469999998" alpha="1" colorSpace="deviceRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="aFM-qb-1AR"/>
+                                    <constraint firstAttribute="height" constant="183" id="eX5-Cl-e5F"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Text Field" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="197-aB-q4B">
+                                <rect key="frame" x="202" y="464" width="110" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.29043854990000001" blue="0.21000228009999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="f96-5L-5z5"/>
+                                    <constraint firstAttribute="height" constant="30" id="mke-tf-yht"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="m1O-bs-YNu"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tap here to dismiss keyboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QT7-Q9-FPQ">
+                                <rect key="frame" x="13" y="32" width="280" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.066599059662864613" green="1" blue="0.079781787362653067" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3HM-eC-kjs" appends="YES" id="oJS-gn-JdZ"/>
+                                </connections>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="197-aB-q4B" firstAttribute="leading" secondItem="ldB-zg-6Sf" secondAttribute="trailing" constant="16" id="28o-MD-cub"/>
+                            <constraint firstItem="ldB-zg-6Sf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="6" id="HB3-NZ-wPx"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="197-aB-q4B" secondAttribute="bottom" constant="74" id="WaJ-U5-i9D"/>
+                            <constraint firstAttribute="trailing" secondItem="197-aB-q4B" secondAttribute="trailing" constant="8" id="djc-QG-GGH"/>
+                            <constraint firstAttribute="trailing" secondItem="ldB-zg-6Sf" secondAttribute="trailing" constant="134" id="fpx-XO-IMq"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ldB-zg-6Sf" secondAttribute="bottom" constant="74" id="ujF-qL-WLu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="uDC-oC-bZM" id="ZPE-nG-f2K"/>
+                        <outlet property="container" destination="ldB-zg-6Sf" id="BpU-NE-RuT"/>
+                        <outlet property="textField1" destination="cYg-rQ-pVl" id="kOF-Jm-WOz"/>
+                        <outlet property="textField2" destination="197-aB-q4B" id="PQd-r2-ocg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="3HM-eC-kjs">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="vXZ-lx-hvc" id="9NC-wp-2O4"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="275" y="46"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
