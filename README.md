@@ -2,7 +2,7 @@ WYKeyboardObserve
 =================
 
 A Category for UIViewController that can easily manage keyboard response.
-
+![image](keyboardObserve.gif)
 ## 使用
 ### 1.添加observe
 在`viewWillAppera`中添加如下方法
