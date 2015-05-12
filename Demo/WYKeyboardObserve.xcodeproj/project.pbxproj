@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32BBF561AFF30460045F8DC /* NSObject+KeyboardAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D32BBF551AFF30460045F8DC /* NSObject+KeyboardAnimation.m */; };
+		D32BBF591AFF31740045F8DC /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D32BBF581AFF31740045F8DC /* UIView+Utils.m */; };
+		D357170F1A5D342300FEC225 /* WYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D357170E1A5D342300FEC225 /* WYTableViewController.m */; };
 		D3C2C9E319AF29E300EAFD69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2C9E219AF29E300EAFD69 /* Foundation.framework */; };
 		D3C2C9E519AF29E300EAFD69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2C9E419AF29E300EAFD69 /* CoreGraphics.framework */; };
 		D3C2C9E719AF29E300EAFD69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2C9E619AF29E300EAFD69 /* UIKit.framework */; };
@@ -21,8 +24,6 @@
 		D3C2CA0419AF29E300EAFD69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2C9E619AF29E300EAFD69 /* UIKit.framework */; };
 		D3C2CA0C19AF29E300EAFD69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3C2CA0A19AF29E300EAFD69 /* InfoPlist.strings */; };
 		D3C2CA0E19AF29E300EAFD69 /* WYKeyboardObserveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C2CA0D19AF29E300EAFD69 /* WYKeyboardObserveTests.m */; };
-		D3C2CA1919AF2AA200EAFD69 /* UIViewController+KeyboardObserve.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C2CA1819AF2AA200EAFD69 /* UIViewController+KeyboardObserve.m */; };
-		D3C2CA1D19AF347700EAFD69 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C2CA1C19AF347700EAFD69 /* Reveal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D32BBF541AFF30460045F8DC /* NSObject+KeyboardAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KeyboardAnimation.h"; sourceTree = "<group>"; };
+		D32BBF551AFF30460045F8DC /* NSObject+KeyboardAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KeyboardAnimation.m"; sourceTree = "<group>"; };
+		D32BBF571AFF31740045F8DC /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		D32BBF581AFF31740045F8DC /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		D357170D1A5D342300FEC225 /* WYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTableViewController.h; sourceTree = "<group>"; };
+		D357170E1A5D342300FEC225 /* WYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTableViewController.m; sourceTree = "<group>"; };
 		D3C2C9DF19AF29E300EAFD69 /* WYKeyboardObserve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYKeyboardObserve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C2C9E219AF29E300EAFD69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3C2C9E419AF29E300EAFD69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,9 +62,6 @@
 		D3C2CA0919AF29E300EAFD69 /* WYKeyboardObserveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WYKeyboardObserveTests-Info.plist"; sourceTree = "<group>"; };
 		D3C2CA0B19AF29E300EAFD69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3C2CA0D19AF29E300EAFD69 /* WYKeyboardObserveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYKeyboardObserveTests.m; sourceTree = "<group>"; };
-		D3C2CA1719AF2AA200EAFD69 /* UIViewController+KeyboardObserve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeyboardObserve.h"; sourceTree = "<group>"; };
-		D3C2CA1819AF2AA200EAFD69 /* UIViewController+KeyboardObserve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeyboardObserve.m"; sourceTree = "<group>"; };
-		D3C2CA1C19AF347700EAFD69 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,6 @@
 				D3C2C9E519AF29E300EAFD69 /* CoreGraphics.framework in Frameworks */,
 				D3C2C9E719AF29E300EAFD69 /* UIKit.framework in Frameworks */,
 				D3C2C9E319AF29E300EAFD69 /* Foundation.framework in Frameworks */,
-				D3C2CA1D19AF347700EAFD69 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +91,6 @@
 		D3C2C9D619AF29E300EAFD69 = {
 			isa = PBXGroup;
 			children = (
-				D3C2CA1C19AF347700EAFD69 /* Reveal.framework */,
 				D3C2C9E819AF29E300EAFD69 /* WYKeyboardObserve */,
 				D3C2CA0719AF29E300EAFD69 /* WYKeyboardObserveTests */,
 				D3C2C9E119AF29E300EAFD69 /* Frameworks */,
@@ -124,8 +126,12 @@
 				D3C2C9F419AF29E300EAFD69 /* Main.storyboard */,
 				D3C2C9F719AF29E300EAFD69 /* WYViewController.h */,
 				D3C2C9F819AF29E300EAFD69 /* WYViewController.m */,
-				D3C2CA1719AF2AA200EAFD69 /* UIViewController+KeyboardObserve.h */,
-				D3C2CA1819AF2AA200EAFD69 /* UIViewController+KeyboardObserve.m */,
+				D357170D1A5D342300FEC225 /* WYTableViewController.h */,
+				D357170E1A5D342300FEC225 /* WYTableViewController.m */,
+				D32BBF571AFF31740045F8DC /* UIView+Utils.h */,
+				D32BBF581AFF31740045F8DC /* UIView+Utils.m */,
+				D32BBF541AFF30460045F8DC /* NSObject+KeyboardAnimation.h */,
+				D32BBF551AFF30460045F8DC /* NSObject+KeyboardAnimation.m */,
 				D3C2C9FA19AF29E300EAFD69 /* Images.xcassets */,
 				D3C2C9E919AF29E300EAFD69 /* Supporting Files */,
 			);
@@ -259,10 +265,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C2CA1919AF2AA200EAFD69 /* UIViewController+KeyboardObserve.m in Sources */,
+				D32BBF591AFF31740045F8DC /* UIView+Utils.m in Sources */,
 				D3C2C9F319AF29E300EAFD69 /* WYAppDelegate.m in Sources */,
+				D357170F1A5D342300FEC225 /* WYTableViewController.m in Sources */,
 				D3C2C9EF19AF29E300EAFD69 /* main.m in Sources */,
 				D3C2C9F919AF29E300EAFD69 /* WYViewController.m in Sources */,
+				D32BBF561AFF30460045F8DC /* NSObject+KeyboardAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,11 +402,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WYKeyboardObserve/WYKeyboardObserve-Prefix.pch";
 				INFOPLIST_FILE = "WYKeyboardObserve/WYKeyboardObserve-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-framework",
-					Reveal,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
